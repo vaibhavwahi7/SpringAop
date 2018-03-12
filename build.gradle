@@ -1,0 +1,22 @@
+group 'ttn.com'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-core' , version: '4.3.13.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context' , version: '4.3.13.RELEASE'
+    compile group: 'org.springframework', name: 'spring-aop', version: '4.3.13.RELEASE'
+    compile group: 'org.aspectj', name: 'aspectjrt', version: '1.7.3'
+    compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.7.3'
+    compile("org.springframework:spring-jdbc:4.3.13.RELEASE")
+    compile("org.springframework:spring-aspects:4.3.13.RELEASE")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

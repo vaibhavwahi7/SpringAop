@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringAop.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringAop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringAop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringAop_main.iml" group="SpringAop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringAop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringAop_test.iml" group="SpringAop" />
+    </modules>
+  </component>
+</project>
